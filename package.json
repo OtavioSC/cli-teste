@@ -1,0 +1,15 @@
+{
+  "name": "target-sistemas",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "bin": {  
+    "fibonacci": "./bin/2-fibonacci.js",
+    "faturamentos": "./bin/3-faturamento.js",
+    "estados": "./bin/4-faturamento-estados.js",
+    "reverse": "./bin/5-reverse-string.js"
+  }
+}
